@@ -50,3 +50,4 @@ python3 query_casetext.py "negligent hiring" opinions/state/negligent_hiring --m
 - Instructor-based vectorization, to create legal domain task specific word embeddings fit to legal concepts
 - Fine tune pipeline for LoRA training (models with specific legal domain knowledge according to topic)
 - Instruction-following dataset creation, based on legal domain-specific prompts and tasks
+- [RECAP](https://free.law/recap) support
