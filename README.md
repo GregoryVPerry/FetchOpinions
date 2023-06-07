@@ -42,3 +42,11 @@ python3 query_casetext.py "tortious interference contract" opinions/state/tortio
 # retrieve just the first 20 results (two pages) from Casetext, interactive browser mode, default search == relevance
 python3 query_casetext.py "negligent hiring" opinions/state/negligent_hiring --maxpage 2
 ```
+
+## Roadmap
+- Full LangChain automation, with claims and causes of action discovered automatically from conversational interactions
+- Inline vector database upserts during opinion discovery, to dynamically build vector database content on-the-fly
+- Constrained matching support for things like vector search within specific date ranges or jurisdictions
+- Instructor-based vectorization, to create legal domain task specific word embeddings fit to legal concepts
+- Fine tune pipeline for LoRA training (models with specific legal domain knowledge according to topic)
+- Instruction-following dataset creation, based on legal domain-specific prompts and tasks
